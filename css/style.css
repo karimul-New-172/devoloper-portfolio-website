@@ -124,6 +124,9 @@ main{
 }
 
 /* skill style here */
+.resume-section{
+    margin-bottom: 100px;
+}
 .skill-section{
     margin: 80px 0;
 }
@@ -139,4 +142,32 @@ main{
 }
 .skill-description{
     text-align: left;
+}
+/* Resume section start */
+.resume-column-container{
+    display: flex;
+    gap: 30px;
+}
+.column{
+    margin: 40px 0;
+}
+.resume-column-title{
+    font-size: 30px;
+}
+.column-title{
+    margin: 0;
+    font-size: 25px;
+    color: #474747;
+}
+.column-sub-title{
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.column-description{
+    color: #757575;
+}
+.resume-section .btn-download{
+    margin-top: 50px;
 }
