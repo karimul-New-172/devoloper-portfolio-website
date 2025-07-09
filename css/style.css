@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -35,8 +38,13 @@
     border-radius: 5px;
     background-color: #FD6E0A;
     padding: 13px 28px;
+    margin-right: 50px;
 }
-
+.btn-contact{
+    background-color: #FFF8F3;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
 /* header style */
 header{
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
