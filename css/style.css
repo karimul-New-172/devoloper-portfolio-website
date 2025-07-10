@@ -112,6 +112,7 @@ main{
     font-size: 35px;
     font-weight: 700;
     color: #181818;
+    margin: 40px auto;
 }
 /* about styles */
 .about-me{
@@ -216,4 +217,5 @@ textarea{
     height: 100px;
     padding-top: 20px;
     margin-bottom: 50px;
+    resize: none;
 }
