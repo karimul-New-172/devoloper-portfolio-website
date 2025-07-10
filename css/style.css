@@ -55,7 +55,8 @@ header{
 
 /* nav style */
 nav{
-    margin: 30px 150px;
+    margin: 0px 150px 30px;
+    padding-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
