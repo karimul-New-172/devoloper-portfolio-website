@@ -11,6 +11,9 @@
 }
 
 /* shared style */
+.hide {
+    display: none;
+}
 .bg-secondary{
     background-color: #FFF8F3;
 }
@@ -193,7 +196,7 @@ footer{
     margin: 0 auto;
 }
 .footer-connect-column,
-.footer-submit-coloum{
+.footer-submit-coluum{
     width: 50%;
 }
 footer .social-links{
@@ -219,4 +222,49 @@ textarea{
     padding-top: 20px;
     margin-bottom: 50px;
     resize: none;
+}
+
+
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    header{
+        background-image: none;
+    }
+    .btn-primary{
+        margin-top: 20px;
+        margin-right: 0;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .about-me{
+        padding: 20px 40px;
+    }
+    nav,
+    nav ul,
+    .banner,
+    .skills-container,
+    .resume-column-container,
+    .footer-columns-container,
+    .about-items {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .resume-column{
+        padding: 20px 40px;
+    }
+    .footer-connect-column,
+    .footer-submit-column{
+        width: calc(100% - 40px);
+        padding: 0 20px;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    textarea {
+        width: 90%;
+    }
 }
